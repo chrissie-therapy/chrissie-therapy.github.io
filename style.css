@@ -1,0 +1,57 @@
+body {
+	font-family: "Book Antiqua", "Palatino Linotype", Palatino, serif;
+	text-align: justify;
+	}
+a.menu:link, a.menu:visited, a.menu:hover {
+	text-transform: uppercase;
+	font-size: small;
+	text-decoration: none;
+}
+a.menu0:link, a.menu0:visited {
+	color: #3F525A;
+}
+a.menu0:hover {
+	color: #008BCE;                              /*   Home */
+}
+a.menu1:link, a.menu1:visited {
+	color: #3F525A;
+}
+a.menu1:hover {
+	color: #85D63D;                              /*   About Us */
+}
+a.menu2:link, a.menu2:visited {
+	color: #3F525A;
+}
+a.menu2:hover {
+	color: #AC70E1;                              /*   Therapy */
+}
+a.menu22:link, a.menu22:visited {
+	color: #3F525A;
+}
+a.menu22:hover {
+	color: #E170A5;                              /*   Retreats */
+}
+a.menu3:link, a.menu3:visited {
+	color: #3F525A;
+}
+a.menu3:hover {
+	color: #008BCE;                              /*   Feedback */
+}
+a.menu4:link, a.menu4:visited {
+	color: #3F525A;
+}
+a.menu4:hover {
+	color: #85D63D;                              /*   How To Find Us */
+}
+a.menu5:link, a.menu5:visited {
+	color: #3F525A;
+}
+a.menu5:hover {
+	color: #AC70E1;                              /*   Contact Us */
+}
+a.menu6:link, a.menu6:visited {
+	color: #3F525A;
+}
+a.menu6:hover {
+	color: #E170A5;                              /*   Related Links */
+}
