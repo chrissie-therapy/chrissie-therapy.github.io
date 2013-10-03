@@ -7,46 +7,54 @@
 html, body { height: 100%; }
 
 body {
-  font-family: "Book Antiqua", "Palatino Linotype", Palatino, serif;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
   text-align: justify;
-  }
+}
 #content {
   line-height: 20px;
-    background-image:url('/images/content_bg.png');
+  background-image:url('/images/content_bg.png');
   background-repeat:repeat-y;
   background-size: 145px;
 }
 a.menu:link, a.menu:visited, a.menu:hover {
   text-transform: uppercase;
-  font-size: small;
+  font-size: 12px;
   text-decoration: none;
 }
 a.menu:link, a.menu:visited {
   color: #3F525A;
 }
 a.menu0:hover, .home {
-  color: #008BCE;                              /*   Home */
+  color: #008BCE;
 }
 a.menu1:hover, .about_us {
-  color: #85D63D;                              /*   About Us */
+  color: #85D63D;
 }
 a.menu2:hover, .therapy {
-  color: #AC70E1;                              /*   Therapy */
+  color: #AC70E1;
 }
 a.menu22:hover, .retreats {
-  color: #E170A5;                              /*   Retreats */
+  color: #E170A5;
 }
 a.menu3:hover, .feedback {
-  color: #008BCE;                              /*   Feedback */
+  color: #008BCE;
 }
-a.menu4:hover, .how_to_find_us{
-  color: #85D63D;                              /*   How To Find Us */
+a.menu4:hover, .courses {
+  color: #85D63D;
 }
 a.menu5:hover, .contact_us {
-  color: #AC70E1;                              /*   Contact Us */
+  color: #AC70E1;
+}
+a.menu55:hover, .cost_and_time_involved {
+  color: #7030a0;
 }
 a.menu6:hover, .related_links {
-  color: #E170A5;                              /*   Related Links */
+  color: #E170A5;
+}
+h2  {
+  font-size: 18px;
+  display: inline;
+  padding-left: 10px;
 }
 .firstbigletter {
   float: left;
@@ -55,11 +63,11 @@ a.menu6:hover, .related_links {
   padding-top: 2px;
   padding-right: 5px;
   font-family: times,Georgia;
-  }
+}
 #container {
   width: 750px;
   margin: 0 auto;
-  }
+}
 #banner {
   width: 750px;
   height: 102px;
@@ -67,14 +75,14 @@ a.menu6:hover, .related_links {
   padding: 0px 0px 0px 0px;
   text-align: center;
   margin: 0 auto;
-  }
+}
 #banner2 {
   background-color: #000000;
   width: 100%;
   height: 102px;
   padding: 0px 0px 0px 0px;
   margin: 12px 0px 6px 0px;
-    }
+}
 #footer {
   background-image: url('/images/footer.png');
   background-size: 100%;
@@ -85,12 +93,17 @@ a.menu6:hover, .related_links {
 }
 #menu {
   text-align: center;
-  margin: 10px 0 0 0;
-  }
+  height: 34px;
+  line-height: 34px;
+}
 #content {
   text-align: justify;
   padding-left: 147px;
-    }
+  margin-bottom: 5px;
+}
+#content p, .padder {
+  padding: 0 15px;
+}
 #footer .left {
   float: left;
   height: 100%;
@@ -105,5 +118,9 @@ a.menu6:hover, .related_links {
   font-size: 18px;
 }
 #footer a:hover {
-  color: #cccccc;
+  color: #555555;
+}
+.questions td {
+  vertical-align: text-top;
+  padding: 3px;
 }
